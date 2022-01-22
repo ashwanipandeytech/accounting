@@ -3329,6 +3329,10 @@ body.royal_loader {
     margin-top: 40px;
 }
 
+.mt-20 {
+    margin-top: 20px;
+}
+
 .teamblock p {
     height: 62px;
 }
@@ -3336,6 +3340,17 @@ body.royal_loader {
 .teamblock:hover {
     box-shadow: none;
 }
+
+.customwidth {
+    width: 240px;
+}
+
+.customwidth .teamblock {
+    padding: 30px 0px;
+    height: 425px;
+}
+
+.customwidth .teamblock p {}
 
 
 /* --------------- */
@@ -9450,11 +9465,25 @@ small.time {
     .tp-bullets.custom {
         max-width: 481px!important;
     }
+    .customwidth {
+        width: unset;
+        height: unset;
+    }
+    .mt-large {
+        margin-top: unset;
+    }
 }
 
 @media only screen and (max-width: 481px) {
     .tp-bullets.custom {
         max-width: 300px!important;
+    }
+    .customwidth {
+        width: unset;
+        height: unset;
+    }
+    .mt-large {
+        margin-top: unset;
     }
 }
 
